@@ -8,11 +8,11 @@ six:["Grand Central","33rd", "28th", "23rd", "Union Square", "Astor Place"]
 
 var lnListeners = function(){
 var ln = document.getElementById("Start");
-ln.addEventListener('change', function(){console.log( subway.n.indexOf(subway.n.value))}) };
+ln.addEventListener('change', function(){console.log( subway.n.indexOf(document.getElementById("Start").value))}) };
 
 
 lnListeners();
-
+console.log(document.getElementById("Start").value);
 
 };
 
