@@ -22,7 +22,7 @@ var resListeners = function (){
 
 var result = document.getElementById("Result");
 
-result.addEventListener('click', function(){  console.log(subway.n.indexOf(document.getElementById("End").value)-subway.n.indexOf(document.getElementById("Start").value)) 
+result.addEventListener('click', function(){  alert(+subway.n.indexOf(document.getElementById("End").value)-subway.n.indexOf(document.getElementById("Start").value)+ "Stop(s)") 
        }) };
 resListeners();
 //Curley of window.onload
